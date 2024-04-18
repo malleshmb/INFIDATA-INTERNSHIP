@@ -1,0 +1,10 @@
+import streamlit as st
+st.title("streamlit demo")
+st.header("This is HEADER")
+st.subheader("This is SUBHEADER")
+st.markdown("___")
+st.success("This is green")
+st.error("This is red")
+st.info("This is blue")
+st.warning("This is yellow")
+st.markdown("___")

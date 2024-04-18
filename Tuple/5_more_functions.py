@@ -1,0 +1,11 @@
+t1 = (3,4,10,10,7,12)
+print("Updated tuple is:",t1)
+print("Max(t1) is:",max(t1))
+print("Min(t1) is:",min(t1))
+print("Length(t1) is:",len(t1))
+print("Sum(t1) is:",sum(t1))
+t1=tuple(reversed(t1))
+print("Reverse(t1) is:",t1)
+print("Count(10) is:",t1.count(10))
+#t1.clear() not supported bcz immutable
+print("Clear(t1) is:",t1)
