@@ -1,0 +1,39 @@
+GENERAL PROCEDURE
+
+STEP 1: DATA COLLECTION
+Collect data from various sources like online repositories, surveys, or use web scraping.
+
+STEP 2: DATA CLEANING
+Removing NaN Values
+Removing Duplicate values
+Removing anomalies
+
+STEP 3: EXPLORATORY DATA ANALYSIS
+Basic eda: .info, .describe, .shape, .size
+Advanced eda
+      #unvariate analysis: box plot, violin plot
+      #bivariate analysis: pair plot
+
+STEP 4: DATA PRE-PROCESSING
+Data scaling : minmax scaling, standard scaling,  
+label encoding :one hot encoding, mapping text to num
+feature engineering 
+      #modifying existing features
+     #backward elimination
+    #selection based on pearson coefficient
+
+STEP 5: MODEL TRAINING
+training the model on *train data*
+obtain trained model
+
+STEP 6: MODEL EVALUATION
+evaluation the trained model on *test data*
+obtain model evaluation parameters
+
+STEP 7: MODEL INFERENCE
+take new inputs from user
+use the trained model to predict output for given set of inputs from user
+
+STEP 8: GUI INTEGRATION(optional)
+create a simple GUI using streamlit framework
+deploy the trained model into created GUI.
